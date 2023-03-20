@@ -19,6 +19,8 @@ def getValue(a):
 """
     Entrada: elemento a
     Salida: valor hash del elemento a
+
+    Nuestra funcion hash solo hace modulo 9 del valor de la cadena
 """
 
 def hashing(a):
@@ -65,6 +67,6 @@ def test():
     hashingArrayWithPrint(a)
     return
 
-#Ejecucion del programa de testeo
+# Ejecucion del programa de testeo
 
 test()
